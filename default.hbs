@@ -13,6 +13,8 @@
 
     <link rel="stylesheet" type="text/css" href="{{asset "css/normalize.css"}}" />
     <link rel="stylesheet" type="text/css" href="{{asset "css/screen.css"}}" />
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.3/styles/tomorrow-night.min.css">
+    <style>.cs .hljs-title { color: #8abeb7; }</style>
 
     {{#if pagination.next}}<link href="{{page_url pagination.next}}" rel="prefetch" />{{/if}}
 
@@ -42,6 +44,9 @@
 
     <script type="text/javascript" src="{{asset "js/index.js"}}"></script>
     {{> google-tag-manager}}
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.3/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
 
 </body>
 </html>
