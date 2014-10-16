@@ -22,6 +22,8 @@
 @subtleColor: rgba(0,0,0,0.05);
 @postmetaColor: #95a5a6;
 @gistBackgroundColor: #fdfdfd;
+@codeColor: #cc1f5e;
+@codeBackgroundColor: #ffeff2;
 
 @maxPageWidth: 600px;
 
@@ -91,10 +93,14 @@ pre {
     background-color: @subtleColor;
 }
 
-p code {
+p code, li code, dt code, dd code {
     font-family: @preFontFamily;
     font-size: .8em;
     line-height: 1.2em;
+    color: @codeColor;
+    background-color: @codeBackgroundColor;
+    padding: 3px;
+    border-radius: 5px;
 }
 
 h1 {

@@ -66,10 +66,17 @@ pre {
   word-wrap: break-word;
   background-color: rgba(0, 0, 0, 0.05);
 }
-p code {
+p code,
+li code,
+dt code,
+dd code {
   font-family: "Consolas", Courier, monospace;
   font-size: .8em;
   line-height: 1.2em;
+  color: #cc1f5e;
+  background-color: #ffeff2;
+  padding: 3px;
+  border-radius: 5px;
 }
 h1 {
   color: #151515;
