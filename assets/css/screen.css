@@ -254,6 +254,12 @@ h2 {
   text-transform: uppercase;
   font-weight: 300;
 }
+h3 {
+  font-family: "Open Sans Condensed", "Open Sans", "Helvetica Neue", Helvetica, Arial, "Nimbus L", sans-serif;
+  margin-top: 2.2em;
+  font-size: 1.4em;
+  font-weight: 700;
+}
 section.post-content img {
   display: block;
   margin: 0 auto;
